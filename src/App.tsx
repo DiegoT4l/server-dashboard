@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Terminal, Activity, HardDrive, Cpu, MemoryStick, Network, Users, Shield, Archive, FileText, AlertTriangle } from 'lucide-react';
-import ServerLogs from './components/ServerLogs';
+import { useState } from 'react';
+import { Terminal, Activity, HardDrive, Cpu, MemoryStick, Users, Shield, Archive, FileText, AlertTriangle } from 'lucide-react';
+import ServerLogs from './components/ServerLogs.tsx';
 import ServerManagement from './components/ServerManagement';
 import WebTerminal from './components/WebTerminal';
 import ServerStats from './components/ServerStats';
